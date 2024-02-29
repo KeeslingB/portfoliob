@@ -1,7 +1,15 @@
+
+import { NavLink } from "react-router-dom";
+
+
 export default function Header(){
   return (
     <>
-    <h1>Portfolio</h1>
+    <ul>
+      <li>
+        {/* <NavLink to="/">Home</NavLink> */}
+      </li>
+    </ul>
     </>
   )
 }
