@@ -13,6 +13,7 @@ function App() {
     <>
 <main>
   < Header />
+  < Hero />
   < Projects />
   < Bio />
   < Contact />
