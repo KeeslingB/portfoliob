@@ -1,30 +1,44 @@
-// import Header from "./components/Header";
-// import Footer from "./components/Footer"
-// import Hero from "./components/Hero";
-
+import './App.css';
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Bio from "./components/Bio";
-
-
-
-import './App.css';
 import React from "react";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+// import Header from "./components/Header";
+// import Footer from "./components/Footer"
+
+
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route,
+//   Link
+// } from "react-router-dom";
+
+
+
+
+
+
+
 
 
 function App() {
 
   return (
     <>
-    <Router>
+ 
+    </>
+  )
+}
+
+export default App
+
+
+
+
+    /* <Router>
       <nav>
         <button>
           <Link to="/">Home</Link>
@@ -39,23 +53,14 @@ function App() {
           <Link to="bio">Bio</Link>
         </button>
       </nav>
-      <Switch>
-        <Route exact path="/">
-          <Home/>
+      <Routes>
+        <Route exact path="/" element={<Home/>}>
         </Route>
-        <Route path="/projects">
-          <Projects/>
+         <Route path="/projects" element={<Projects />}>
         </Route>
-        <Route path="/contact">
-          <Contact/>
+        <Route path="/contact" element={<Contact/>}>
         </Route>
-        <Route path="/bio">
-          <Bio/>
+        <Route path="/bio" element={<Bio/>}>
         </Route>
-      </Switch>
-    </Router>
-    </>
-  )
-}
-
-export default App
+      </Routes> 
+</Router> */
