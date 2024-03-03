@@ -17,7 +17,7 @@ import React from "react";
 // } from "react-router-dom";
 
 
-
+import Nav from "./components/Nav";
 
 
 
@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-    
+    <Nav/>
     </>
   )
 }
