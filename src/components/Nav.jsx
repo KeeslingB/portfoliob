@@ -1,5 +1,8 @@
 
-import Link from "react-scroll";
+import {Link} from "react-scroll";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Bio from "./Bio";
 
 
 export default function Nav(){
@@ -10,26 +13,26 @@ export default function Nav(){
       <nav>
         <ul>
           <li>
-            <Link activeclass="active" smooth={true} spy={true} to="projects">
+            <Link activeclass="active" smooth spy to="projects">
             PROJECTS
             </Link>
             </li>
           <li>
-            <Link activeClass="active" smooth={true} spy={true} to="bio">
+            <Link activeClass="active" smooth spy to="bio">
             BIO
             </Link>
             </li>
           <li>
-            <Link activeclass="active" smooth={true} spy={true} to="contact">
+            <Link activeclass="active" smooth spy to="contact">
             CONTACT
             </Link>
             </li>
         </ul>
       </nav>
     </header>
-    <section id="projects">PROJECTS</section>
-    <section id="bio">BIO</section>
-    <section id="contact">CONTACT</section>
+    <section id="projects"><Projects/></section>
+    <section id="bio"><Bio/></section>
+    <section id="contact"><Contact/></section>
     </>
   )
 }
