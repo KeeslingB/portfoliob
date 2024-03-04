@@ -12,6 +12,7 @@ section {
   height: 100vh;
   font-size: 32px;
   font-weight: bold;
+  max-width:auto;
 }
 
 .nav {
@@ -53,10 +54,16 @@ section {
 
 ul {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   font-size: 0.9rem;
   list-style: none;
-  padding: 0;
+  padding: auto;
+  position: fixed;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: white;
+  /* color: white; */
 }
 
 li {
@@ -65,4 +72,13 @@ li {
 
 li:hover {
   text-decoration: underline;
+}
+
+
+#home {
+  background-image: url("./assets/landingpage.avif");
+  display: flex;
+}
+#projects {
+  color: red;
 }
