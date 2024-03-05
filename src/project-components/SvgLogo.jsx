@@ -1,16 +1,19 @@
 import Card from "react-bootstrap/Card";
 import svg from "../assets/svg-logo.svg";
 
-
 import github from "../assets/svgs/github-icon-1.svg";
 import webpage from "../assets/svgs/url-link-svgrepo-com.svg";
 
 export default function SvgLogo() {
-
-  return(
+  return (
     <>
-          <Card className="projects-card" style={{ width: "18rem" }}>
-        <Card.Img className="project-imgs" variant="top" src={svg} alt="logomaker-placeholder" />
+      <Card className="projects-card" style={{ width: "18rem" }}>
+        <Card.Img
+          className="project-imgs"
+          variant="top"
+          src={svg}
+          alt="logomaker-placeholder"
+        />
         <Card.Body>
           <Card.Title className="project-title">SVG Logo Maker.</Card.Title>
         </Card.Body>
@@ -32,5 +35,5 @@ export default function SvgLogo() {
         </Card.Body>
       </Card>
     </>
-  )
+  );
 }

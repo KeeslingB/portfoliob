@@ -1,18 +1,23 @@
 import Card from "react-bootstrap/Card";
 import orm from "../assets/shopping-backend.png";
 
-
 import github from "../assets/svgs/github-icon-1.svg";
 import webpage from "../assets/svgs/url-link-svgrepo-com.svg";
 
 export default function SvgLogo() {
-
-  return(
+  return (
     <>
-          <Card className="projects-card" style={{ width: "18rem" }}>
-        <Card.Img className="project-imgs" variant="top" src={orm} alt="logomaker-placeholder" />
+      <Card className="projects-card" style={{ width: "18rem" }}>
+        <Card.Img
+          className="project-imgs"
+          variant="top"
+          src={orm}
+          alt="logomaker-placeholder"
+        />
         <Card.Body>
-          <Card.Title className="project-title">E Commerce - ORM Backend.</Card.Title>
+          <Card.Title className="project-title">
+            E Commerce - ORM Backend.
+          </Card.Title>
         </Card.Body>
         <Card.Body>
           <Card.Link
@@ -32,5 +37,5 @@ export default function SvgLogo() {
         </Card.Body>
       </Card>
     </>
-  )
+  );
 }
