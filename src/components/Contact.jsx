@@ -2,7 +2,9 @@ export default function Contact() {
 
   return (
     <>
-    <h1>Contact.</h1>
+    <div>
+      <h2>Contact.</h2>
+    </div>
     </>
   )
 }

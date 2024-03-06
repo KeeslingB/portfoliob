@@ -9,7 +9,7 @@ export default function Gamefinder() {
 
   return(
     <>
-          <Card className="projects-card" style={{ width: "18rem" }}>
+          <Card className="projects-card" >
         <Card.Img className="project-imgs" variant="top" src={gamefinder} alt="gamefinder-placeholder" />
         <Card.Body>
           <Card.Title className="project-title">GameFinder.</Card.Title>

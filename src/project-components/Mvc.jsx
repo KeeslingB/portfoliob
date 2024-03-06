@@ -7,7 +7,7 @@ import webpage from "../assets/svgs/url-link-svgrepo-com.svg";
 export default function Mvc() {
   return (
     <>
-      <Card className="projects-card" style={{ width: "18rem" }}>
+      <Card className="projects-card" >
         <Card.Img className="project-imgs" variant="top" src={mvc} />
         <Card.Body>
           <Card.Title className="project-title">MVC - Armory.</Card.Title>
