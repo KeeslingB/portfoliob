@@ -3,7 +3,7 @@ export default function Footer(){
   return (
     <>
     <footer className="footer">
-      <h1>Footer. Links and Such will go here.</h1>
+      <p className="footer-text">Made by Brendan Keesling - Code available at <a href="https:/github.com/keeslingb"> GitHub</a></p>
     </footer>
     </>
   )
