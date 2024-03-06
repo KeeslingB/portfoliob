@@ -134,6 +134,7 @@ li:hover {
   display: flex;
   max-width: 25px;
   max-height: 25px;
+  vertical-align: text-bottom;
 }
 
 .form {
@@ -147,14 +148,15 @@ li:hover {
 
 
 .footer {
-  background-color: rgb(39, 36, 36);
-  color: white;
+  background: url("./assets/projectsback.webp") repeat center;
+  color: black;
   display: flex;
+  justify-content: center;
 }
 
 .footer-text {
   display: flex;
-  align-items: center;
+  font-weight: bold;
 }
 
 /* Images Below */
