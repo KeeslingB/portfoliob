@@ -24,15 +24,13 @@ export default function Employeetracker() {
             className="project-links"
             href="https://github.com/KeeslingB/employee-tracker"
           >
-            <img className="svg" src={github} alt="github-svg-logo" />
-            <p>GitHub.</p>
+            <img className="svg" src={github} alt="github-svg-logo" />GitHub.
           </Card.Link>
           <Card.Link
             className="project-links"
             href="https://drive.google.com/file/d/12wkkLMZX5sDQSprDR3G8yTdLjBGZCx7B/view"
           >
-            <img src={webpage} alt="webpage-site-url" className="svg" />
-            <p>Walkthrough Video.</p>
+            <img src={webpage} alt="webpage-site-url" className="svg" /> Walkthrough Video.
           </Card.Link>
         </Card.Body>
       </Card>

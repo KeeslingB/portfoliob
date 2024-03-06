@@ -14,22 +14,19 @@ export default function Contact() {
             className="project-links"
             href="https://github.com/KeeslingB"
           >
-      <img className="svg" src={github} alt="github-logo"/>
-            <h4>GitHub.</h4>
+      <img className="svg" src={github} alt="github-logo"/>GitHub.
           </Card.Link>
           <Card.Link
             className="project-links"
             href="https://linkedin.com/in/brendan-keesling"
           >
-      <img className="svg" src={linkedin} alt="linkedin-logo"/>
-            <h4>Linkedin.</h4>
+      <img className="svg" src={linkedin} alt="linkedin-logo"/>Linkedin.
           </Card.Link>
           <Card.Link
             className="project-links"
             href="https://keeslingdev@gmail.com"
           >
-      <img className="svg" src={indeed} alt="indeed-logo"/>
-            <h4>Indeed.</h4>
+      <img className="svg" src={indeed} alt="indeed-logo"/>Indeed.
           </Card.Link>
     </div>
     </>

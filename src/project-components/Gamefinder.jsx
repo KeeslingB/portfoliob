@@ -19,15 +19,13 @@ export default function Gamefinder() {
             className="project-links"
             href="https://github.com/KeeslingB/Gamefinder"
           >
-            <img className="svg" src={github} alt="github-svg-logo" />
-            <p>GitHub.</p>
+            <img className="svg" src={github} alt="github-svg-logo" />GitHub.
           </Card.Link>
           <Card.Link
             className="project-links"
             href="https://github.com/KeeslingB/Gamefinder"
           >
-            <img src={webpage} alt="webpage-site-url" className="svg" />
-            <p>Project Page.</p>
+            <img src={webpage} alt="webpage-site-url" className="svg" />Project Page.
           </Card.Link>
         </Card.Body>
       </Card>
