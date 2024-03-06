@@ -17,7 +17,7 @@ section {
 .nav {
   display: flex;
   align-items: center;
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
   position: sticky;
   top: -5px;
   z-index: 2;
@@ -43,6 +43,7 @@ section {
   flex-flow: row nowrap;
   padding-left: 50px;
   flex: 1;
+  min-width: 150px;
 }
 
 .active {
@@ -52,11 +53,12 @@ section {
 ul {
   display: flex;
   gap: 3rem;
-  font-size: 0.9rem;
+  font-size: 1.25rem;
   list-style: none;
-  padding: 3px;
+  padding: 4px;
   position: fixed;
-  margin: auto;
+  /* margin: auto; */
+  margin-left: 15px;
   border-radius: 3px;
   background-color: white;
   background: url("./assets/projectsback.webp") no-repeat center;
@@ -135,6 +137,8 @@ li:hover {
   max-width: 25px;
   max-height: 25px;
   vertical-align: -0.125em;
+  margin-top: 10px;
+  margin-right: 3px;
 }
 
 .form {
