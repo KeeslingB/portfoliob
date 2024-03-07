@@ -17,7 +17,7 @@ section {
 .nav {
   display: flex;
   align-items: center;
-  /* position: -webkit-sticky; */
+  position: -webkit-sticky;
   position: sticky;
   top: -5px;
   z-index: 2;
@@ -82,6 +82,7 @@ li:hover {
   border-radius: 5px;
   max-height:min-content;
   align-items: stretch;
+  overflow-wrap: normal;
 }
 
 .project-title {
@@ -132,6 +133,10 @@ li:hover {
   align-items: center;
 }
 
+.project-titles {
+  display: flex;
+}
+
 .svg {
   display: flex;
   max-width: 25px;
@@ -172,11 +177,14 @@ li:hover {
 }
 
 .project-imgs {
-  max-width: 250px;
+  max-width: 225px;
   display: flex;
-  padding: 19px;
-  justify-content: center;
+  padding: 10px;
+  margin: auto;
 }
+
+
+/* Section's Below  */
 
 #home {
   background: url("./assets/home.avif") no-repeat center;

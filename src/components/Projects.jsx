@@ -11,13 +11,13 @@ export default function Projects() {
   return (
     <>
     <div className="group-div">
-      <h3>Group.</h3>
+      <h4 className="project-titles">Group.</h4>
       <Mvc />
       <Gamefinder />
       <Madlibs />
     </div>
     <div className="solo-div">
-      <h3>Individual.</h3>
+      <h4 className="project-titles">Individual.</h4>
       <Employeetracker />
       <SvgLogo />
       <Ecommerce />
