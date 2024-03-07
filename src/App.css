@@ -168,6 +168,10 @@ li:hover {
   font-weight: bold;
 }
 
+.footer-link {
+  margin-left: 4px;
+}
+
 /* Images Below */
 
 .umn-logo {
