@@ -1,5 +1,4 @@
-![](./src/assets/readme-img.png)
-
+# Portfolio - Under Construction Coming Soon...
 # Table of Context.
 
 - [About Me](#about-me)
@@ -23,5 +22,5 @@ React Bootstrap Doc's for refference and documentation during proccess [react-bo
 
 - GitHub [Here](https://github.com/KeeslingB)
 - Linkedin [Here](https://linkedin.com/in/brendan-keesling)
-- Email [Here]()  (Not  Real Link)
+- Email [Here]()  ( Not  Real Link ) 
 
